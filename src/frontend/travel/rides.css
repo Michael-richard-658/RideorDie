@@ -1,0 +1,54 @@
+/*Solo-ride*/
+.solo-rides-m{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+.soloride-card{
+    width: 20rem;
+    background-color: #FAF6E3;
+    height: 20rem;
+    border-radius: 12px;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.7);
+    overflow: hidden; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    font-size: large;
+    font-weight: bold;
+}
+.solo-rides-m > a > div > img{
+    width: 18rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 6px  ;
+}
+.soloride-card:hover {
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.9); 
+    transform: scale(1.05); 
+}
+.ride-dis{
+    margin-left: 1.8rem;
+}
+.pagination-container {
+    margin-top: auto; 
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    top: 17rem;
+    left: 44.5rem;
+}
+
+.pagination button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+}

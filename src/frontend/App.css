@@ -1,0 +1,197 @@
+*{
+    font-family: sans-serif;
+    box-sizing:0;
+    
+}
+
+body{
+    color: black;
+    background-color: white;
+    /*margin: 0%;*/
+}
+/*Nav */
+.profile-png{
+    width: 3rem;    
+    height: 3rem;
+    margin-right: 2rem;
+    background-color: white;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav{
+  /*  position: fixed;
+    background-color: white;*/
+    background-image:linear-gradient(#7E60BF,#629584);
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    font-size: large;
+    font-weight: bolder;
+}
+.slogun{
+    margin-right: 50rem;
+    margin-left: 2rem;
+}
+/*home-body*/
+.img1{
+    width: 35rem;
+    border-radius: 5px;
+    margin-top: 5rem;
+    display: inline;
+}
+.sec1{
+    position: absolute;
+    top: 23%;
+    left: 39%;
+}
+.home-p1{
+    font-size: larger;
+    font-weight: bold;
+}
+.div1{
+    max-width:70rem;
+}
+.h-join{
+    padding: .75rem;
+    border:none;
+    border-radius: 5px;
+    background-color: lawngreen;
+    color: white;
+    font-size: large;
+    position: absolute;
+    top: 75%;
+    right: 30%;
+}
+.logo{
+    width: 35rem;
+    border-radius: 10px;
+    margin-top: 2.5rem;
+    margin-left: 62%;
+    height: 25rem;
+}
+.div2 > h2{
+    position: absolute;
+    top: 88%;
+    left: 10%;
+}
+.div2 > p{
+    position: absolute;
+    top: 95%;
+    right: 37rem;left: 2rem;
+    font-size: larger;
+    font-weight: bold;
+}
+.h-about {
+    padding: .75rem;
+    border:none;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    font-size: large;
+    position: absolute;
+    right:65%;
+    top: 135%;
+}
+.div3 > img{
+    width: 35rem;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+.div3 > h2{
+    position: absolute;
+    top: 148%;
+    left: 40%;
+}
+.div3 > p{
+    position: absolute;
+    top: 153%;
+    left: 38rem;
+    font-size: larger;
+    font-weight: bold;
+}
+.h-community{
+    border:  none;
+    background-color:teal;
+    padding: .75rem;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 187%;
+    left: 66%;
+    font-size: large;
+}
+.last  { 
+
+    margin-top: 5rem;
+}
+.last > img {
+    width: 100%;
+    border-radius: 10px;
+}
+/*map*/
+.ride-div{
+    position: absolute;
+    left: 69rem;
+    top: 203%;
+}
+.ride-map{
+    background-image: linear-gradient(rgba(96, 140, 193, .4), rgba(171, 136, 109, .4));
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    margin-bottom: 1.5rem;
+}
+.ride-map > h3{
+    font-weight: bolder;
+    font-size: large;
+}
+.ride-map > p{
+    font-weight: bold;
+    font-size: 200;
+}
+/*footer*/
+.footer-div > a > img{
+    width: 2.5rem;
+    border-radius: 50%;
+}
+.footer-div > img{
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+}
+.footer-div > button {
+    border: none;
+    border-radius: 50%;
+}
+.footer-div{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    background-image:linear-gradient(#629584,#7E60BF);
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.feedback-in{
+    width:20rem;
+    padding: .5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-weight: bolder;
+    margin-top: 1rem;
+}

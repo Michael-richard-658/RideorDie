@@ -1,0 +1,35 @@
+/*travel-nav*/
+.travel-nav-div{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-right: 15rem;
+    margin-left: 17rem;
+    min-height: 17.7vh;
+}
+.travel-nav-div > h1{
+    font-size: larger;
+}
+body{
+    color: black;
+}
+.ride-search{
+    width: 20rem;
+    padding: .5rem;
+    border-radius: 10px;
+    margin-left: 35rem;
+    margin-right: 17rem;
+}
+.ride-search::placeholder{
+    color: black;
+    font-weight: bolder;
+}
+.add-ride{
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    background-color: #72BF78;
+    border: none;
+    font-size: large;
+    font-weight: bolder;
+}

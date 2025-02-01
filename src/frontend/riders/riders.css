@@ -1,0 +1,192 @@
+.riders-m{
+    background-color: #006A67;
+    min-height: 77.5vh;
+    max-height: 76.5vh;
+    overflow:hidden;
+}
+.riders-m > input {
+    padding: .5rem;
+    border: none;
+    border-radius: 10px;
+    width: 15rem;
+    margin-left: 39rem;
+    margin-top: 1rem;
+   
+}
+.riders{
+    display: flex;
+    flex-flow: row;
+    position: absolute;
+    top: 10rem;
+    column-gap: 3rem;
+    left: 3rem;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
+.rider-card{
+    background-color: white;
+    width: 15rem;
+    border-radius: 10px;
+    height: 5rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.7);
+    overflow: hidden; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.rider-card:hover {
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.9); 
+    transform: scale(1.05); 
+}
+.rider-name{
+    margin-right: 7rem;
+    font-size: medium;
+    font-weight: bolder;
+}
+.profile-r{
+    width: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.pagination-controls{
+    position: absolute;
+    top: 36.5rem;
+    left: 41rem;
+}
+.prev{
+    margin-right: 1rem;
+    color: white;
+    border: none;
+    background-color:#F95454 ;
+    padding: .75rem;
+    border-radius: 5px;
+    font-size: large;
+
+}
+.next{
+    margin-right: 1rem;
+    color: white;
+    border: none;
+    background-color:#F95454 ;
+    padding: .75rem;
+    border-radius: 5px;
+    margin-left: 1.5rem;
+    font-size: large;
+}
+a{
+    color: black;
+}
+/*profile*/
+.profile-m{
+    background-color: #DBD3D3;
+    min-height: 100vh;
+}
+.top-half{
+    background-color: #CBDCEB;
+}
+.profile-m > div > img{
+    width: 15rem;
+    border-radius: 55%;
+    background-color: aliceblue;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+.profile-m > div >h1{
+    position: absolute;
+    top: 3rem;
+    left: 30rem;
+    color: black;
+}
+.bars{
+    position: absolute;
+    top: 8rem;
+    left: 30rem;
+}
+.exp-bar,.pre-bar{
+    display: flex;
+    flex-flow: row;
+}
+.exp-bar > div{
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: 5px;
+}
+.pre-bar > div{
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+.pre-bar > div:nth-child(1),.pre-bar > div:nth-child(3) {
+   width: 4.2rem;
+  }
+ .mess-p{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    width: 9rem;
+    position: absolute;
+    left:70rem;
+    top: 10rem;
+}
+.mess-p > img{
+    width: 2rem;
+}
+/*followers-bar*/
+
+.followers-bar > div > div{
+    width: 22rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    border-bottom: 1px solid white;
+    margin-left: 50rem;
+    border: #006A67 solid 1.5px;
+    border-radius: 5px;
+}
+.followers-bar > div > div > div{
+    padding: 1rem;
+    border: #006A67 solid 1.5px;
+}
+
+.follow{
+    width: 6rem;
+    cursor: pointer;
+}
+hr{
+    margin: 0%;
+}
+/*bottom-half*/
+.bottom-half{
+    background-color: #DBD3D3;
+}
+.bottom-half > div > h4{
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.bio-p{
+    width: 20rem;
+    font-size: large;
+    overflow: hidden;
+    padding-left: 15px;
+}
+.bio-div{
+    background-color: white;
+    width: max-content;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+.follow-mess{
+    color: red;
+    position: absolute;
+    right: 10rem;
+    top: 18rem;
+}

@@ -1,0 +1,319 @@
+.login-m{
+    min-height: 100vh;
+    background-color:#D4BDAC;
+    margin: 0;
+    color: white;
+}
+body{
+    margin: 0%;
+    box-sizing: border-box;
+}
+.q-mess{
+    position: absolute;
+    left: 36rem;
+    margin-top: 4rem;
+}
+.login-box{
+    width: 25rem;
+    position: absolute;
+    top: 17%;
+    left: 35rem;
+    background-color: #608BC1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.login-box > input{
+    border: none;
+    width: 20rem;
+    padding: .5rem;
+    margin-bottom: 2rem;
+    border-radius: 7px;
+}
+.login-box > input::placeholder{
+    color: black;
+    font-weight: 100;
+}
+.login-box > button{
+    padding: .75rem;
+    border: none;
+    color: white;
+    background-color: #859F3D;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+.login-box > p {
+    color: crimson;
+    margin-top: 2rem;
+    font-size: large;
+}
+.login-box > p  >a {
+    color: #31511E;
+    text-decoration: underline;
+}
+.errormessage{
+    color: red;
+    position: absolute;
+    font-size: larger;
+    font-weight: bold;
+    top: 66%;
+    left: 42%;
+}
+/*create-acc*/
+.create-m{
+    background-image: linear-gradient(#31511E,#E6C767);
+    height: 100vh;
+}
+.create-m > h1 {
+    position: absolute;
+    color: white;
+    left: 19rem;
+}
+
+.img-container > img{
+    width: 34.03rem;
+    position: absolute;
+    left: 64.5%;
+}
+.sign-up-box{
+    color: white;
+    position: absolute;
+    border: 2px solid white;
+    top: 6rem;
+    display: flex;
+    flex-flow: column;
+    width: 20rem;
+    padding: 2.5rem;
+    left: 17rem;
+    border-radius: 10px;
+}
+.sign-up-box > input,.sign-up-box > select {
+    margin: .5rem;
+    padding: 1rem;
+    border: none ;
+    border-radius: 5px;
+}
+.sign-up-box > input::placeholder{
+    font-size: large;
+    font-weight: bold;
+}
+.sign-up-box select{
+    font-weight: bold;
+}
+.sign-up-box > h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 0%;
+}
+.sign-up-box > button {
+    width: 9rem;
+    border: none;
+    color: white;
+    background-color: brown;
+    padding: .5rem;
+    font-size: large;
+    border-radius: 5px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+.sign-up-box > p {
+    text-align: center;
+    color: crimson;
+    margin-top: 2rem;
+    font-size: large;
+}
+.sign-up-box > p > a{
+    color: #31511E;
+    text-decoration: underline;
+    
+}
+.home-arr,.home-arr-dark{
+    position: absolute;
+    font-size: 36px;
+    margin-left: 2rem;
+}
+.home-arr{
+    color: white;   
+}
+.home-arr-dark{
+    color: black;
+   }
+.formchecker{
+    position: absolute;
+    color: red;
+    font-size: large;
+    font-weight: bolder;
+    top:7%;
+    left:16rem ;
+}
+.createdMessage{
+    position: absolute;
+    color:#859F3D;
+    font-size: large;
+    font-weight: bolder;
+    top:7%;
+    left:22rem ;
+}
+/*userprofile*/
+/*left*/
+.userprofile-m{
+    background-color: #608BC1;
+    min-height: 77.6vh;
+    box-sizing: border-box;
+    
+}
+.l-userprofile-div{
+    width: 25rem;
+    border-right: 5px solid white;
+    height: 76.3vh;
+
+}
+.l-userprofile-div > img{
+    
+    width: 10rem;
+   margin-left: 7.5rem;
+    margin-top: 2rem;
+    background-color: white;
+    border-radius: 55%;
+}
+.username{
+    text-align: center;
+}
+.experience{
+    text-align: center  ;
+}
+.ridingpreference{
+    text-align: center;
+}
+.date{
+    text-align: center;
+}
+.username,.experience,.ridingpreference,.date{
+    color: white;
+    margin-bottom: 2.5rem;
+}
+.edit-div{
+   
+    display: flex;
+    flex-flow: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.edit{
+    padding: .75rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #859F3D;
+    font-size: medium;
+}
+.logout{
+    padding: .75rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: crimson;
+    font-size: medium;
+}
+
+/*r-userprofile*/
+.r-userprofile-div{
+    position: absolute;
+    top: 10rem;
+    left: 29rem;
+}
+.text-nav{
+    display: flex;
+    flex-flow: row;
+    border: 2px solid black;
+    border-bottom: 0cap;
+    border-radius: 5px;
+    width: 20rem;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-nav > button{
+    border: none;
+    background-color: white;
+}
+.text-nav > button > img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+.text-area{
+    border-radius: 5px;
+}
+.user-bio{
+    margin-left: 1rem;
+}
+
+.userprofile-follow-div > div > div{
+    position: absolute;
+    top: 79%;
+    right: 52%;
+    margin-bottom: 20rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    border-bottom: 1px solid white;
+    margin-left: 50rem;
+    border-radius: 5px;
+    border: #006A67 solid 3px;
+}
+.userprofile-follow-div > div > div > div{
+    padding: 1rem;
+    border: #006A67 1px solid;
+}
+/*edit-user*/
+.edituser-m-div{
+    background-color: #17153B;
+    height: 100vh;
+    color: white;
+    margin: 0%;
+}
+.edituser-box{
+    position: absolute;
+    width: 20rem;
+    border: 3px solid white;
+    border-radius: 12px;
+    left: 36rem;
+    top: 4rem;
+    padding: 1rem;
+
+}
+.edituser-box > h1 {
+    text-align: center;
+    
+}
+.edit-inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.edit-inputs > input ,.edit-inputs > select {
+    padding: .7rem;
+    margin: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+.update-edituser{
+    padding: 1rem;
+    background-color: #859F3D;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-size: large;
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+.onchange{
+    position:absolute;
+    top: 90%;
+    left: 35rem;
+}
