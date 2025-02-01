@@ -67,10 +67,12 @@ export default function SpecificMessage() {
 
   return (
     <div
-      style={{
-        background: darkTheme ? 'black' : 'white',
-        paddingBottom: '36%',
-      }}
+    style={{
+      background: darkTheme ? 'black' : 'white',
+      paddingBottom: '36%',
+      transition: 'background-color .51s'
+    }}
+    
     >
       <Link to={`http://localhost:3000/riders/${id}`}>
         <p className={darkTheme ? 'home-arr' : 'home-arr-dark'}>&larr;</p>
@@ -87,6 +89,7 @@ export default function SpecificMessage() {
           color: darkTheme ? 'black' : 'white',
           backgroundColor: darkTheme ? 'white' : 'black',
           transition: 'all 1s ease-in-out',
+          transition: 'background-color 1s'
         }}
       >
         {darkTheme ? 'Light' : 'Dark'}
@@ -101,6 +104,7 @@ export default function SpecificMessage() {
           width: '80%',
           left: '19.8%',
           top: '0%',
+          transition: 'background-color .51s'
         }}
       >
         <div

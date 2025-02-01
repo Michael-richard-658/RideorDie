@@ -77,6 +77,7 @@ export default function UserProfile() {
       localStorage.removeItem('token')
       setCount(prev => prev + 1)
       socket.emit('logout',{logout:true})
+      nav('/login')
     }
     const handleClickOpen = () => {
       setOpen(true);
